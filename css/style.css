@@ -1,0 +1,78 @@
+
+
+/* _______ COMMON STYLES _______ */
+.ms_btn {
+    background-color: #363636;
+    padding: .6rem 1rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 2.5rem;
+
+}
+.ms_btn:hover {
+    color: white;
+}
+
+body {
+    line-height: unset;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+a:hover {
+    color: currentColor;
+}
+/* _______ END COMMON STYLES _______ */
+
+
+
+/* _______ HEADER _______ */
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.logo_sony {
+    height: .75rem;
+}
+@media screen and (min-width: 768px) {
+    .logo_sony {
+        height: 1rem;
+    }    
+}
+
+/* ----- HEADER TOP ----- */
+.header_top {
+    background-color: black;
+    padding: .7rem;
+}
+/* ----- END HEADER TOP ----- */
+
+
+/* ----- HEADER BOTTOM ----- */
+.header_bottom {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+}
+
+.search_icon {
+    width: 1.75rem;
+}
+/* ----- END HEADER BOTTOM ----- */
+
+/* _______ END HEADER _______ */
+
+
+
+/* _______ MAIN _______ */
+
+/* _______ END MAIN _______ */
