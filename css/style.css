@@ -67,7 +67,7 @@ img {
 
 .btn_small {
     padding: .5rem .75rem;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .btn_blue {
@@ -178,6 +178,11 @@ header {
     margin: 4rem 0;
 }
 
+#playstation5 .blue_text {
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+
 #playstation5 .text_wrapper {
     text-align: center;
 }
@@ -189,6 +194,7 @@ header {
 #playstation5 .text_wrapper > * {
     margin: .75rem 0;
 }
+
 
 #playstation5 .product_wrapper.selected {
     border-bottom: 2px blue solid;
@@ -209,6 +215,7 @@ header {
         padding: 1.25rem;
     }    
 }
+
 
 /* spacing */
 #playstation5 .row:nth-child(2) {
