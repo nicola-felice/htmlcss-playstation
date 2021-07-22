@@ -25,6 +25,11 @@ a {
 a:hover {
     color: currentColor;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
 /* _______ END COMMON STYLES _______ */
 
 
@@ -32,9 +37,9 @@ a:hover {
 /* _______ HEADER _______ */
 
 header {
-    position: sticky;
-    width: 100%;
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 9999;
 }
 
@@ -59,11 +64,9 @@ header {
 .header_bottom {
     background-color: white;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #000;
 }
-
 .search_icon {
     width: 1.75rem;
 }
@@ -74,5 +77,37 @@ header {
 
 
 /* _______ MAIN _______ */
+
+/* ----- HERO SECTION ----- */
+#hero {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    
+
+    margin-top: 6.75rem;
+    padding: .5rem .75rem;
+    padding-top: 13rem;
+}
+@media screen and (min-width: 768px) {
+    #hero {
+        padding: 2rem 3rem;
+        padding-top: 15rem;
+    }
+}
+.returnal_logo {
+    width: 14rem;
+}
+#hero .ms_btn {
+    background-color: #cd3d0f;
+}
+
+/* spacing items */
+#hero .col > * {
+    margin: 1rem 0;
+}
+
+/* ----- END HERO SECTION ----- */
 
 /* _______ END MAIN _______ */
