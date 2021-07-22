@@ -79,34 +79,54 @@ header {
 /* _______ MAIN _______ */
 
 /* ----- HERO SECTION ----- */
-#hero {
+
+/* HERO TOP */
+.hero_top {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
     color: white;
-    
 
     margin-top: 6.75rem;
     padding: .5rem .75rem;
-    padding-top: 13rem;
+    padding-top: 13rem; 
 }
 @media screen and (min-width: 768px) {
-    #hero {
+    .hero_top {
         padding: 2rem 3rem;
         padding-top: 15rem;
     }
 }
+
 .returnal_logo {
     width: 14rem;
 }
-#hero .ms_btn {
+.hero_top .ms_btn {
     background-color: #cd3d0f;
 }
 
 /* spacing items */
-#hero .col > * {
+.hero_top .col > * {
     margin: 1rem 0;
 }
+/* END HERO TOP */
+
+/* HERO BOTTOM */
+.hero_bottom {
+    padding: 1.5rem .75rem;    
+}
+@media screen and (min-width: 768px) {
+    .hero_bottom {
+        padding: 1.5rem 3rem;
+    }
+}
+
+.hero_bottom .image_wrapper {
+    margin: calc(var(--bs-gutter-x) * .5) 0;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+/* END HERO BOTTOM */
 
 /* ----- END HERO SECTION ----- */
 
