@@ -59,6 +59,12 @@ img {
     border-radius: .8rem;
     overflow: hidden;
 }
+
+.grey_paragraph {
+    color: rgb(134, 134, 134);
+    font-weight: 600;
+    font-size: 1rem;
+}
 /* _______ END COMMON STYLES _______ */
 
 
@@ -186,12 +192,6 @@ header {
     margin: 4rem 0;
 }
 
-.playstation5 p {
-    color: rgb(134, 134, 134);
-    font-weight: 600;
-    font-size: 1rem;
-}
-
 .playstation5 .blue_text {
     margin-bottom: 0;
     font-size: .9rem;
@@ -277,11 +277,6 @@ header {
 .playstation4 {
     padding: 3rem 0;
 }
-.playstation4 p {
-    color: rgb(134, 134, 134);
-    font-weight: 600;
-    font-size: 1rem;
-}
 .playstation4 .row > * {
     margin: 1.25rem 0;
 }
@@ -289,26 +284,41 @@ header {
 
 
 
-/* ----- BANNER PLAYSTATION PLUS ----- */
-.playstation_plus {
-    background-color: #bebcbb;
-}
+/* ----- BANNERS ----- */
+
 @media screen and (max-width: 768px) {
-    .playstation_plus {
+    .ms_banner {
         padding: 2rem 0;
     } 
 }
-
-.playstation_plus .col > * {
+.ms_banner .col > * {
     margin: .75rem 0;
 }
 
+
+.playstation_plus {
+    background-color: #bebcbb;
+}
 .playstation_plus button {
     background-color: #d9dadc;
     color: blue;
 }
-/* ----- END BANNER PLAYSTATION PLUS ----- */
 
+/* ----- END BANNERS ----- */
+
+
+
+/* ----- DISCOUNTS SECTION ----- */
+.discounts {
+    padding: 2rem 0;
+}
+.discounts .row {
+    margin: 1rem 0;
+}
+.discounts .col-md-4 {
+    margin: 1rem 0;
+}
+/* ----- END DISCOUNTS SECTION ----- */
 
 
 /* _______ END MAIN _______ */
