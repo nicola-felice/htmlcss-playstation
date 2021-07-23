@@ -161,9 +161,9 @@ header {
 
 /* HERO TOP */
 .hero_top {
-    background-image: url("../img/jumbo-bg.png");
+    background-image: url("../img/hero_alt.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     color: white;
 
     margin-top: 5.75rem;
