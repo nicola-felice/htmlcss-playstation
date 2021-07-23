@@ -27,7 +27,7 @@ h3 {
 .ms_container {
     padding-left: 1rem;    
     padding-right: 1rem; 
-    max-width: 1400px;   
+    max-width: 1200px;   
     margin: auto;
 }
 @media screen and (min-width: 768px) {
@@ -296,11 +296,27 @@ header {
 }
 
 
+.playstation_now {
+    background-color: #161c3b;
+    color: white;
+}
+.playstation_now button {
+    background-color: white;
+    color: black;
+}
+.playstation_now button:hover {
+    color: black;
+}
+
+
 .playstation_plus {
     background-color: #bebcbb;
 }
 .playstation_plus button {
     background-color: #d9dadc;
+    color: blue;
+}
+.playstation_plus button:hover {
     color: blue;
 }
 
