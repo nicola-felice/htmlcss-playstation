@@ -36,6 +36,10 @@ h3 {
         padding-right: 3rem;    
     }
 }
+.ms_container_small {
+    max-width: 600px;   
+    margin: auto;
+}
 
 img {
     max-width: 100%;
@@ -335,6 +339,17 @@ header {
     margin: 1rem 0;
 }
 /* ----- END DISCOUNTS SECTION ----- */
+
+
+
+/* ----- SOCIALS SECTION ----- */
+.socials {
+    padding: 3rem 0;
+}
+.socials .row > * {
+    margin: calc(var(--bs-gutter-x) * .5) 0;
+}
+/* ----- END SOCIALS SECTION ----- */
 
 
 /* _______ END MAIN _______ */
