@@ -133,6 +133,13 @@ header {
     background-color: black;
     padding: .7rem;
 }
+
+header .nav-link::after {
+    content: url('../img/chevron-down-solid.svg');
+    display: inline-block;
+    width: 12px;
+    vertical-align: sub;
+}
 /* ----- END HEADER TOP ----- */
 
 
