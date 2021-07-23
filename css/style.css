@@ -81,6 +81,7 @@ img {
 .btn_small {
     padding: .5rem .75rem;
     font-size: .9rem;
+    font-weight: 400;
 }
 
 .btn_blue {
@@ -271,6 +272,7 @@ header {
 /* ----- END NEW RELEASES SECTION ----- */
 
 
+
 /* ----- PLAYSTATION 4 SECTION ----- */
 .playstation4 {
     padding: 3rem 0;
@@ -284,6 +286,29 @@ header {
     margin: 1.25rem 0;
 }
 /* ----- END PLAYSTATION 4 SECTION ----- */
+
+
+
+/* ----- BANNER PLAYSTATION PLUS ----- */
+.playstation_plus {
+    background-color: #bebcbb;
+}
+@media screen and (max-width: 768px) {
+    .playstation_plus {
+        padding: 2rem 0;
+    } 
+}
+
+.playstation_plus .col > * {
+    margin: .75rem 0;
+}
+
+.playstation_plus button {
+    background-color: #d9dadc;
+    color: blue;
+}
+/* ----- END BANNER PLAYSTATION PLUS ----- */
+
 
 
 /* _______ END MAIN _______ */
