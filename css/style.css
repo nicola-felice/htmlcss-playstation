@@ -92,12 +92,6 @@ li {
     color: white;
 }
 
-/* .btn_small {
-    padding: .5rem .75rem;
-    font-size: .9rem;
-    font-weight: 400;
-} */
-
 .btn_blue {
     background-color: #2d64e6;
 }
@@ -345,7 +339,7 @@ header .nav-link::after {
 
 /* ----- DISCOUNTS SECTION ----- */
 .discounts {
-    padding: 2rem 0;
+    padding: 3.5rem 0;
 }
 .discounts .row {
     margin: 1rem 0;
