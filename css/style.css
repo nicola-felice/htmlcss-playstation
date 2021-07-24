@@ -92,13 +92,12 @@ li {
     border-radius: 2.5rem;
     position: relative;
 }
+
 .ms_btn:hover {
     color: white;
     outline: 2px solid white;
     outline-offset: -4px;
 }
-
-
 .ms_btn_dark_hover:hover {
     outline: 2px solid black;
     outline-offset: -4px;
@@ -320,7 +319,7 @@ header .nav-link::after {
 
 /* ----- BANNERS ----- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .ms_banner {
         padding: 2rem 0;
     } 
