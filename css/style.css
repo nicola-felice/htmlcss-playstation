@@ -142,8 +142,13 @@ header {
 header .nav-link::after {
     content: url('../img/chevron-down-solid.svg');
     display: inline-block;
-    width: 12px;
+    width: 13px;
     vertical-align: sub;
+}
+/* on hover or active arrow down turns blue */
+.nav-link[aria-expanded*="true"]::after,
+.nav-link:hover::after {
+    content: url('../img/chevron-down-solid-hover.svg');
 }
 /* ----- END HEADER TOP ----- */
 
