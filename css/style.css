@@ -145,6 +145,11 @@ header .nav-link::after {
     width: 13px;
     vertical-align: sub;
 }
+/* ----- END HEADER TOP ----- */
+
+
+/* ----- HEADER BOTTOM ----- */
+
 /* on hover or active arrow down turns blue */
 .nav-link[aria-expanded*="true"]::after,
 .nav-link:hover::after {
@@ -153,7 +158,7 @@ header .nav-link::after {
 .nav-link[aria-expanded*="true"]::after {
     transform: rotate(180deg) translateY(5px);
 }
-/* dropdown menu */
+/* DROPDOWN MENU */
 .nav-item {
     position: static;
 }
@@ -176,10 +181,9 @@ header .nav-link::after {
 .icon_dropdown {
     width: 4.5rem;
 }
-/* ----- END HEADER TOP ----- */
+/* END DROPDOWN MENU */
 
 
-/* ----- HEADER BOTTOM ----- */
 .header_bottom {
     background-color: white;
 }
