@@ -151,6 +151,8 @@ header .nav-link::after {
 /* ----- HEADER BOTTOM ----- */
 .header_bottom {
     background-color: white;
+    max-height: calc(100vh - 2rem);
+    overflow: auto;
 }
 .navbar {
     padding: 0;
