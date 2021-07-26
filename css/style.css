@@ -150,6 +150,10 @@ header .nav-link::after {
 .nav-link:hover::after {
     content: url('../img/chevron-down-solid-hover.svg');
 }
+.nav-link[aria-expanded*="true"]::after {
+    transform: rotate(180deg) translateY(5px);
+}
+
 /* ----- END HEADER TOP ----- */
 
 
@@ -323,20 +327,28 @@ header .nav-link::after {
 
 
 /* ----- BANNERS ----- */
-
+.ms_banner {
+    line-height: 1.25rem;
+}
 @media screen and (max-width: 767px) {
     .ms_banner {
         padding: 2rem 0;
     } 
 }
+
 .ms_banner .col > * {
     margin: .75rem 0;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .ms_banner .col > * {
+        margin: .4rem 0;
+    }
+        
 }
 
 .banner_logo {
     width: 20rem;
 }
-
 
 .playstation_now {
     background-color: #161c3b;
