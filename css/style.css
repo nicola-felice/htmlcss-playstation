@@ -149,8 +149,24 @@ header .nav-link::after {
 
 
 /* ----- HEADER BOTTOM ----- */
+.header_bottom {
+    background-color: white;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+}
+.search_icon {
+    width: 1.75rem;
+}
 
 /* on hover or active arrow down turns blue */
+.navbar-expand-lg .navbar-nav .nav-link[aria-expanded*="true"],
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #0070d1;
+}
 .nav-link[aria-expanded*="true"]::after,
 .nav-link:hover::after {
     content: url('../img/chevron-down-solid-hover.svg');
@@ -183,22 +199,10 @@ header .nav-link::after {
 }
 /* END DROPDOWN MENU */
 
-
-.header_bottom {
-    background-color: white;
-}
-.navbar {
-    padding: 0;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: #000;
-}
-.search_icon {
-    width: 1.75rem;
-}
 /* ----- END HEADER BOTTOM ----- */
 
 /* _______ END HEADER _______ */
+
 
 
 
