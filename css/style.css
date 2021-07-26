@@ -153,7 +153,29 @@ header .nav-link::after {
 .nav-link[aria-expanded*="true"]::after {
     transform: rotate(180deg) translateY(5px);
 }
-
+/* dropdown menu */
+.nav-item {
+    position: static;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+.option_dropdown_menu {
+    border-bottom: 2px transparent solid;
+}
+.option_dropdown_menu:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    border-bottom: 2px #0070d1 solid;
+}
+.dropdown-menu a:hover {
+    text-decoration: underline;
+}
+.icon_dropdown {
+    width: 4.5rem;
+}
 /* ----- END HEADER TOP ----- */
 
 
